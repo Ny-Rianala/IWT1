@@ -1,0 +1,25 @@
+.main {
+    margin-left: 20px;
+    margin-right: 10px;
+&__context {
+    @include centered-items;
+    padding-bottom: 40px;
+&--heading {
+    font-size: 38px;
+    font-weight: lighter;
+}
+&--paragraph {
+    font-size: 16px;
+    line-height: 32px;
+}
+&--button {
+    color: white;
+    border: none;
+    background: linear-gradient(to right, limegreen, cyan);
+    padding: 13px 22px;
+    border-radius: 16px;
+    cursor: pointer;
+}
+}
+}
+

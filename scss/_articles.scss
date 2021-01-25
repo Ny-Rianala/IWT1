@@ -16,3 +16,23 @@
     padding-right: 10px;
 }
 }
+
+
+@media (min-width: 1000px) {
+    .article__container--card {
+        width: 22%;
+    }
+    .article__container {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        margin-left: 2rem;
+    }
+    .article__header {
+        text-align: left;
+        margin-left: 2rem;
+    }
+    .article {
+        margin-left: 6rem;
+    }
+}

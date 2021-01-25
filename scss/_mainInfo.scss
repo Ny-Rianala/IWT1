@@ -1,6 +1,11 @@
 .main {
-    margin-left: 20px;
-    margin-right: 10px;
+    background-image: url("../images/bg-intro-mobile.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 0rem;
+    background-position-y: -1rem;
+    min-height: 35rem;
 &__context {
     @include centered-items;
     padding-bottom: 40px;
@@ -13,13 +18,7 @@
     line-height: 32px;
 }
 &--button {
-    color: white;
-    border: none;
-    background: linear-gradient(to right, limegreen, cyan);
-    padding: 13px 22px;
-    border-radius: 16px;
-    cursor: pointer;
+    @include button;
 }
 }
 }
-

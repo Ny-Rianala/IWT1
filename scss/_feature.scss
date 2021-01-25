@@ -33,3 +33,27 @@
     }
 }
 }
+@media(min-width:1000px) {
+    .feature__content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-right: 15rem;
+        margin-left: 5rem;
+        padding-right: 32px;
+    }
+    .feature__card {
+        display: flex;
+        flex-direction: row;
+        margin-right: 6rem;
+
+    &--options-heading {
+        margin-left: 8rem;
+        text-align: left;
+    }
+    &--options-paragraph {
+        margin-left: 8rem;
+        text-align: left;
+    }
+}
+}

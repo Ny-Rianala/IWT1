@@ -1,0 +1,19 @@
+.siteheader {
+    display: flex;
+    justify-content: space-around;
+    background: #ffffff;
+    height: 4.5rem;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+&__menu {
+    display: inline;
+    position: relative;
+    left: 90%;
+}
+
+.siteheader__logo svg{
+    margin-top: 19px;
+    margin-left: -141px;
+}
+}

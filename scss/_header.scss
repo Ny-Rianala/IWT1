@@ -17,3 +17,9 @@
     margin-left: -141px;
 }
 }
+
+@media(min-width: 1000px) {
+    .siteheader__logo svg {
+        margin-right: 700px;
+    }
+}

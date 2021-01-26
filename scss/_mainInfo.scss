@@ -19,6 +19,7 @@
 }
 &--button {
     @include button;
+    margin-top: 20px;
 }
 }
 }
@@ -29,18 +30,20 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: right;
-        background-position-x: 38rem;
+        background-position-x: 30rem;
         min-height: 35rem;
+        padding-bottom: 50px;
     &__info {
         position: absolute;
-        top: 1rem;
-        right: -28rem;
+        top: -1rem;
+        right: -6rem;
+        max-width: 50%;
     }
     &__context {
         position: absolute;
         width: 35%;
-        left: 7rem;
-        padding: 90px 80px;
+        left: 1rem;
+        padding: 100px;
         text-align: left;
         display: flex;
         flex-direction: column;

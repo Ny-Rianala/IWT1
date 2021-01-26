@@ -43,6 +43,10 @@ img {
     margin-top: 19px;
     margin-left: -141px; }
 
+@media (min-width: 1000px) {
+  .siteheader__logo svg {
+    margin-right: 700px; } }
+
 .main {
   background-image: url("../images/bg-intro-mobile.svg");
   background-size: contain;
@@ -69,7 +73,8 @@ img {
       background: linear-gradient(to right, limegreen, cyan);
       padding: 20px 50px;
       border-radius: 25px;
-      cursor: pointer; }
+      cursor: pointer;
+      margin-top: 20px; }
 
 @media (min-width: 1000px) {
   .main {
@@ -77,17 +82,19 @@ img {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
-    background-position-x: 38rem;
-    min-height: 35rem; }
+    background-position-x: 30rem;
+    min-height: 35rem;
+    padding-bottom: 50px; }
     .main__info {
       position: absolute;
-      top: 1rem;
-      right: -28rem; }
+      top: -1rem;
+      right: -6rem;
+      max-width: 50%; }
     .main__context {
       position: absolute;
       width: 35%;
-      left: 7rem;
-      padding: 90px 80px;
+      left: 1rem;
+      padding: 100px;
       text-align: left;
       display: flex;
       flex-direction: column;
@@ -225,12 +232,11 @@ img {
   left: 85%; }
 
 body > nav > ul a {
-  text-transform: uppercase;
+  text-transform: lowercase;
   font-weight: 700;
   font-size: 0.75rem;
   line-height: 1rem;
-  display: block;
-  padding: 1rem 1rem 1rem 4rem; }
+  display: block; }
 
 #menu_checkbox {
   position: absolute;
@@ -238,19 +244,22 @@ body > nav > ul a {
   top: 5%; }
 
 body > nav {
-  background-color: #f8f8f8;
+  background-color: #ffffff;
+  border-radius: 5px;
   position: absolute;
   z-index: 3;
   top: 0;
   left: 0;
   bottom: 20px;
   width: 90%;
-  height: 40%;
+  height: 35%;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
   transform: translateX(-110%);
   margin-top: 30%;
   margin-left: 10px;
-  margin-right: 20px; }
+  margin-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 10px; }
 
 .nav__link {
   display: flex;
@@ -294,17 +303,19 @@ body > nav > h2 > label {
 body > nav > ul {
   list-style: none;
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  text-align: center; }
 
 body > nav > ul a {
-  text-transform: uppercase;
+  text-transform: capitalize;
   text-decoration: none;
   opacity: 0.5;
   font-weight: 700;
   font-size: 0.75rem;
-  line-height: 1rem;
+  line-height: 2rem;
   display: block;
-  padding: 1rem 1rem 1rem 4rem; }
+  color: #222252;
+  font-size: 16px; }
 
 body > nav .link {
   background-position: 1rem 50%; }
@@ -312,7 +323,7 @@ body > nav .link {
 body > nav > ul a:hover {
   opacity: 1; }
 
-@media (min-width: 1140px) {
+@media (min-width: 1000px) {
   body > nav {
     padding: 0;
     background-color: transparent;

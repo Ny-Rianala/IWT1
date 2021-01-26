@@ -9,12 +9,11 @@
    }
   
   body > nav > ul a {
-  text-transform: uppercase;
+  text-transform: lowercase;
   font-weight: 700;
   font-size: 0.75rem;
   line-height: 1rem;
   display: block;
-  padding: 1rem 1rem 1rem 4rem;
   }
   
 #menu_checkbox {
@@ -26,19 +25,22 @@
 
 
   body > nav {
-  background-color: #f8f8f8;
+  background-color: #ffffff;
+  border-radius: 5px;
   position: absolute;
   z-index: 3;
   top: 0;
   left: 0;
   bottom: 20px;
   width: 90%;
-  height: 40%;
+  height: 35%;
   box-shadow: 0 0 50px rgba(0,0,0,.5);
   transform: translateX(-110%);
   margin-top: 30%;
   margin-left: 10px;
   margin-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 10px;
     }
 
     .nav__link {
@@ -90,17 +92,20 @@
   list-style: none;
   display: flex;
   flex-direction: column;
+  text-align: center;
+  
   }
   
   body > nav > ul a {
-  text-transform: uppercase;
+  text-transform: capitalize;
   text-decoration: none;
   opacity: 0.5;
   font-weight: 700;
   font-size: 0.75rem;
-  line-height: 1rem;
+  line-height: 2rem;
   display: block;
-  padding: 1rem 1rem 1rem 4rem;
+  color: rgb(34, 34, 82);
+  font-size: 16px;
   }
   
   body > nav .link {
@@ -112,7 +117,7 @@
    }
   
   
-  @media (min-width: 1140px) {
+  @media (min-width: 1000px) {
   body > nav {
     padding: 0;
     background-color: transparent;

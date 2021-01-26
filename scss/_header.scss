@@ -19,7 +19,16 @@
 }
 
 @media(min-width: 1000px) {
-    .siteheader__logo svg {
+    .siteheader {
+        display: flex;
+        justify-content: space-around;
+        background: #ffffff;
+        height: 4.5rem;
+        width: 100%;
+        position: fixed;
+        z-index: 2;
+    &__logo svg {
         margin-right: 700px;
     }
+}
 }

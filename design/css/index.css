@@ -123,7 +123,8 @@ img {
       font-weight: lighter; }
     .feature__content--paragraph {
       line-height: 20px;
-      font-size: 16px; }
+      font-size: 16px;
+      color: grey; }
   .feature__card {
     padding-top: 35px; }
     .feature__card--options {
@@ -173,6 +174,14 @@ img {
     padding-left: 15px;
     padding-bottom: 25px;
     padding-right: 10px; }
+    .article__container--card-content-author {
+      color: lightgrey;
+      font-size: 14px; }
+    .article__container--card-content-header {
+      font-size: 20px; }
+    .article__container--card-content-paragraph {
+      font-size: 16px;
+      color: lightgrey; }
 
 @media (min-width: 1000px) {
   .article__container--card {
